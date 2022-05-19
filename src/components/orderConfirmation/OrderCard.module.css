@@ -1,0 +1,14 @@
+.orderCard {
+  background: white;
+  margin: 0 3% 6% 3%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+.orderTitle{
+    padding: 1% 0 1% 3%;
+    border-bottom: 1px solid grey;
+    color: black;
+    text-align: start;
+}
+

@@ -1,0 +1,178 @@
+.payButton {
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pay {
+    color: white;
+  }
+  
+  .applelogo {
+    height: 32px;
+  }
+  
+  .itemInOrder {
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 20px 14px;
+  }
+  
+  .itemInOrderImage {
+    height: 70px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .item-in-order-container {
+    display: flex;
+    padding: 3% 7%;
+    justify-content: space-between;
+    /* background-color: purple; */
+    background-color: #f5fbfd;
+    margin-top: 150px;
+  }
+  
+  .item-in-order-wrapper {
+    /* background-color: pink; */
+  
+    flex: 0.7;
+  }
+  .item-checkout {
+    height: 400px;
+    /* background-color: black; */
+    flex: 0.28;
+  }
+  
+  .item-order-details {
+    display: flex;
+    /* background-color: purple; */
+    justify-content: space-between;
+    width: 35%;
+  }
+  
+  .item-display {
+    background-color: #fff;
+    padding: 10px 14px;
+    border: 1px solid rgb(236, 231, 231);
+    /* border-radius: 0 0 5px 5px; */
+    margin-top: 20px;
+    position: relative;
+  }
+  .horizontal-rule {
+    /* height: 2px solid red; */
+    width: 100%;
+    background-color: lightgray;
+    left: 0;
+    right: 0;
+    height: 1px;
+    position: absolute;
+    top: 70px;
+  }
+  
+  .item-checkout-parent {
+    /* background-color: red; */
+    height: 400px;
+  }
+  
+  .first-child {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 20px;
+  }
+  .order-summary-box {
+    /* background-color: green; */
+    text-align: left !important;
+    /* border-bottom:1px solid lightgrey ; */
+  
+    padding: 0px;
+  }
+  .order-summary-box h2 {
+    text-align: left !important;
+    padding: 10px;
+    color: #000;
+  }
+  .order-subtotal-box {
+    /* background-color: brown; */
+  }
+  
+  .second-child {
+    /* background-color: pink; */
+  }
+  
+  .place-order {
+    /* background-color: purple; */
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    margin-right: 10px;
+    background-color: #f00;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .items-checkout-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .items-checkout-details span {
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 2.5;
+    color: grey;
+  }
+  .horizontal-ruler {
+    width: 100%;
+    background-color: lightgray;
+    left: 0;
+    right: 0;
+    height: 1px;
+    position: absolute;
+    top: 60px;
+  }
+
+  .orderButtons {
+    width: 45%;
+    padding: 3%;
+    background: #f00;
+    /* height: 40px; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #f00;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 922px){
+      .item-in-order-container {
+         flex-wrap:wrap ;
+         flex-direction: column-reverse;
+        }
+     
+    }
+  
+  
+  @media screen and (max-width: 450px){
+   
+        .itemInOrder {
+          
+          flex-wrap: wrap;
+         flex-direction: column;
+  
+        
+        }
+        .itemInOrderImage {
+          height: 100px;
+          width: 140px;
+        
+        }
+     
+    }

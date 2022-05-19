@@ -1,0 +1,45 @@
+.cartDelete:hover{
+    transform: scale(1.5, 1.5);
+    fill: rgb(180, 37, 37);
+}
+.cartFav{
+    fill: rgb(94, 190, 94);
+}
+
+.cartFav:hover{
+    transform: scale(1.5, 1.5);
+    fill: rgb(72, 228, 72);
+}
+
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.emptyCartIcon{
+    height: 100%;
+    width: 50%;
+    fill: red;
+}
+
+.emptyCartBtn{
+    padding: 3%;
+    margin-top: 6%;
+    background-color: rgb(53, 167, 53);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: larger;
+    color: white;
+    width: 60%;
+    align-self: center;
+}
+
+.emptyCartBtn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(53, 167, 53);
+    color: rgb(53, 167, 53);
+    cursor: pointer;
+}

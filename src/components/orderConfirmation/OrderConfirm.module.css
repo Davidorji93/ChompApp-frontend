@@ -1,0 +1,118 @@
+.order_wrapper {
+    background-color: #f5fbfd;
+  padding: 20% 5% 5% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.orderContent{
+    width: 60%;  
+}
+
+.OrderCustomerDetails,
+.paymentInfo {
+  padding: 3% 0 3% 3%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.orderShippingAddress,
+.payInfo,
+.billingAdd {
+  flex: 1;
+}
+
+.orderImg {
+  width: 7%;
+  height: 7%;
+}
+
+.OrderShipping {
+  padding: 2% 0 2% 3%;
+}
+
+.orderPrice {
+  color: #f00;
+}
+
+.orderItems {
+  padding: 2% 0 2% 3%;
+  display: flex;
+}
+
+.orderItemDetails {
+  padding-left: 2%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.orderSummaryCard {
+  padding: 3% 3% 3% 3%;
+}
+.orderSummaryItems {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5em;
+}
+.orderButtons {
+  width: 45%;
+  padding: 3%;
+  background: #f00;
+  /* height: 40px; */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #f00;
+  cursor: pointer;
+}
+.place-order {
+  /* background-color: purple; */
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #f00;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.summaryBtnsDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.orderButtons:hover {
+  border: 1px solid #f00;
+  background-color: white;
+  color: #f00;
+  transition: all 0.5s ease-in-out;
+}
+
+.orderSum{
+    height: 100%;
+    width: 30%;
+    padding-top: 1%;
+    position: sticky;
+    top: 20%;
+    box-shadow: rgba(87, 191, 142, 0.7) 0px 3px 8px;
+}
+
+@media screen and (max-width: 767px){
+    .order_wrapper{
+        display: flex;
+        margin-top: 40%;
+        flex-direction: column-reverse;
+    }
+    .orderContent{
+        width: 100%;
+    }
+    .orderSum{
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+
+}
+

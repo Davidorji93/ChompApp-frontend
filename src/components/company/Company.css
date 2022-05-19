@@ -1,0 +1,213 @@
+:root {
+    --primary: #f00;
+    --white: #ffffff;
+  }
+.company{
+    margin-top:100px;
+}
+.company__header{
+    background-image:url('https://uploads-ssl.webflow.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum-p-130x130q80.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+   
+    height:500px;
+
+}
+.company__header__shield{
+    background-color: #f5fbfc; 
+    align-items: center;
+    opacity: 0.8;
+
+    height: 500px;
+    display:flex;
+    justify-content: center;
+
+   
+    text-align: center;
+    padding:3% 100px;
+
+
+}
+.company__header h1{
+    line-height:1.2;
+    font-size: 3.5rem;
+    width:max(700px,55%, 45vw);
+}
+.company__emphasis{
+    color:var(--primary);
+}
+
+
+.company__about__us{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding:3% 3%;
+    height: 100vh;
+
+}
+.company__left__section{
+    flex: 0.48;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column ;
+}
+
+
+.company__right__section {
+    flex: 0.48;
+    display: grid;
+    padding:120px 50px;
+    grid-gap: 15px;
+    color: #444;
+    grid-template-areas: 'one one two'
+                         'three four two';
+  }
+
+  .company__photo__grid_section {
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 170px;
+
+  }
+.company__right__section .a {
+    grid-area:one;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1521305916504-4a1121188589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80');
+  }
+  .company__right__section .b {
+    grid-area:two;
+    background-image: url('https://images.pexels.com/photos/2454533/pexels-photo-2454533.jpeg?cs=srgb&dl=pexels-rania-alhamed-2454533.jpg&fm=jpg');
+
+  }
+  .company__right__section .c {
+    grid-area:three;
+    background-image: url('https://images.unsplash.com/photo-1532635224-cf024e66d122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+
+  }
+  .company__right__section >.d {
+    grid-area:four;
+    background-image: url('https://images.unsplash.com/photo-1515182629504-727d7753751f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80');
+    
+}
+.company__right__section >.a, .b, .c, .d{
+    background-position: center center;
+    background-size: cover;
+
+}
+.company__title{
+    color: var(--primary);
+    font-size: 3rem;
+
+
+}
+.company__text{
+    
+}
+.company__about__button{
+    background:var(--primary);
+    padding:15px 25px;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+    margin-top:40px;
+    
+}
+.comapany__count__background{
+    background-image:url('https://gousto.gurucloud.co.uk/wp-content/uploads/2019/11/IMG_5691-1-1-scaled.jpg');
+    background-image: url('https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.company__background__shield{
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    min-height:100%;
+    width:100%;
+    opacity:0.6;
+    padding:120px 0 ;
+}
+.company__count{
+    opacity: 1 !important;
+    height:200px;
+    width:200px;
+    margin:40px;
+}
+.company__count h1, h2{
+    color:white;
+    text-align: center;
+}
+.company__count h1{
+
+    font-size:85px;
+}
+.company__count h2{
+    font-size:20px;
+    font-weight: 400;
+    text-transform:capitalize;
+}
+.company__count> p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 848px) {
+    .company__header h1{
+        line-height:1;
+        font-size: 2.5rem;
+        width:250%;
+    }
+    .company__about__us{
+    margin-bottom: 200px;
+ 
+    }
+    .company__left__section{
+        flex: 100%;
+    }
+    
+    
+    .company__right__section {
+        flex: 100%;
+    padding:0;
+
+     
+}
+
+.company__header{
+    width:100%;
+    padding: 0;
+    font-size: 1.5rem;
+
+}
+.company__title,.company__text, .company__about__button{
+   text-align:center;
+
+
+}
+.company__text{
+
+    
+}
+.company__button__section{
+    display:flex;
+    justify-content:center;
+
+}
+.company__about__button{
+
+
+}
+
+
+.company__background__shield{
+    padding:50px 0 ;
+}
+}

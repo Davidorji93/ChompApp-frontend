@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    padding: 50px;
+    /* padding: 100px 7% 140px 7%; */
+    position: relative;
+    flex-wrap: wrap;
+}
+.faq__left__section{
+    flex:0.5;
+    padding: 0 0 40px 0;
+}
+.faq__title__box{
+    margin: 20px 0;
+    max-width: 580px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color:#08090a;
+    align-self:left;
+    padding-right: 150px;
+}
+.faq__title__box h1{
+    text-align: left;
+    line-height: 1;
+    z-index: -1;
+}
+.faq__emphasis{
+    color:#f00;
+
+}
+.faq__paragraph{
+    margin:0 10px 0 0;
+    font-weight:400;
+    font-size:18px;
+    line-height: 1.34;
+    color:#546285;
+    text-align: left;
+    padding-right: 12%;
+
+}
+.faq__button__section{
+    display:flex;
+    justify-content: left;
+}
+.faq__button{
+    padding:20px 35px;
+    min-height:60px;
+    font-size: 18px;
+    background-color:#f00;
+    color:#fff;
+    font-style: capitalize;
+    cursor: pointer;
+    border: none;
+    border-radius:5px;
+    font-weight:400;
+    margin:50px 0 0 0;
+
+}
+.faq__review{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    margin: 30px 0 0 0;
+
+}
+.faq__review__image{
+    width:20%;
+}
+.faq__review .emphasis{
+   color:#f00;
+    
+}
+.faq__right__section{
+    flex:0.5;
+    display: flex;
+    justify-content:center;
+    position:relative;
+}
+.faq__big__image{
+    width:300px;
+    height:350px;
+    object-fit:cover;
+    object-position:50% 50%;
+    border-radius: 70px 10px ;
+
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+
+    /* max-width: 100%; */
+    vertical-align: middle;
+    display: inline-block;
+    
+
+}
+.faq__try{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+
+@media screen and (min-width: 960px){
+  
+    .faq__big__image{
+        width:90%;
+        height:90%;
+        object-fit:cover;
+        object-position:50% 50%;
+        border-radius: 70px 10px ;
+    
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        /* max-width:100%; */
+        vertical-align: middle;
+        display: inline-block;
+        
+    
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 848px){
+  
+    .faq__title__box h1 {
+        text-align: center;
+       
+    }
+    .faq__paragraph {
+        text-align: center;
+        padding-right: 0;
+        width: 350px;
+    }
+    .faq__button__section {
+        justify-content: center;
+    }
+    .faq__title__box {
+        align-self:center;
+        padding-right: 0;
+    }
+  
+    
+}
+

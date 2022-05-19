@@ -1,0 +1,33 @@
+.btnWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.cancelBtn{
+    padding: 4%;
+    background-color: rgb(53, 53, 233);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.deleteBtn{
+    padding: 4%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cancelBtn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(53, 53, 233);
+    color: rgb(53, 53, 233);
+}
+
+.deleteBtn:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
